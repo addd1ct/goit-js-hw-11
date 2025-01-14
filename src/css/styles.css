@@ -16,3 +16,35 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
+
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+#search-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 10px;
+}
+
+.gallery-item {
+  display: block;
+  text-decoration: none;
+}
+
+.gallery-item img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.info {
+  margin-top: 5px;
+  font-size: 14px;
+}
